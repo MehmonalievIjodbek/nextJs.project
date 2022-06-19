@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 
+/*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Poppins', sans-serif;*/
 
 
@@ -9,6 +10,10 @@
     align-items: center;
     padding: 0 45px;
     background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .teslaLogo {
@@ -35,4 +40,80 @@
 }
 .items > .itemsLink{
     color: #171a20;
+}
+
+/* HEADER */
+
+.section{
+    background: url("../public/images/model-3.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.textsArea{
+     text-align: center;
+    margin-top: 70px;
+}
+.textsArea > h3{
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.touchless{
+    border-bottom: 1px solid #313131;
+    padding: 3px;
+    cursor: pointer;
+    transition: 0.4s linear;
+    -webkit-transition: all 0.4s linear ;
+}
+.touchless:hover {
+    border-bottom-width: 2px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.btnMain{
+    display: flex;
+    padding: 240px 0 20px;
+}
+.btnMain > .btn{
+    background-color: rgba(23,26,32, 0.8);
+    color: #fff;
+    width: 256px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.btn:nth-child(2){
+    background-color: #fff;
+    color: #171a20CC;
+    margin-left: 20px;
+}
+.downIcon{
+    height: 40px;
+    animation: downIconAnim 1.5s ease 0s infinite normal none running;
+    -webkit-animation: downIconAnim 1.5s ease 0s infinite normal none running;
+}
+@keyframes downIconAnim {
+    0%,
+    20%,
+    50%,
+    80%,
+    100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(5px);
+    }
+    60%{
+        transform: translateY(3px);
+    }
 }

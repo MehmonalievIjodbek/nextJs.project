@@ -44,7 +44,7 @@ const Navbar = () => {
                 </li>
                 <li className={styles.items}>
                     <a href="#" className={styles.itemsLink}>
-                        Solar Roof
+                        Solar Panels
                     </a>
                 </li>
             </ul>
@@ -52,17 +52,17 @@ const Navbar = () => {
             <div className={styles.menu}>
                 <li className={styles.items}>
                     <a href="#" className={styles.itemsLink}>
-                        Solar Roof
+                        Shop
                     </a>
                 </li>
                 <li className={styles.items}>
                     <a href="#" className={styles.itemsLink}>
-                        Solar Roof
+                        Account
                     </a>
                 </li>
                 <li className={styles.items}>
                     <a href="#" className={styles.itemsLink} >
-                        Solar Roof
+                        Menu
                     </a>
                 </li>
             </div>
