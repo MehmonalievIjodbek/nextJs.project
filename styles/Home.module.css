@@ -52,6 +52,30 @@
     display: grid;
     place-items: center;
 }
+.section:nth-child(3){
+    background: url("../public/images/model-y.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.section:nth-child(4){
+    background: url("../public/images/model-s.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.section:nth-child(5){
+    background: url("../public/images/model-x.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.section:nth-child(6){
+    background: url("../public/images/solar-panel.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
 .textsArea{
      text-align: center;
     margin-top: 70px;
@@ -60,6 +84,7 @@
     font-size: 2.5rem;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+
 }
 .touchless{
     border-bottom: 1px solid #313131;
