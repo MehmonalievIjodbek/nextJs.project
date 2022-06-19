@@ -15,7 +15,6 @@ const Navbar = () => {
                     />
                 </a>
             </Link>
-
             <ul className={styles.navbarNav}>
                 <li className={styles.items}>
                     <a href="#" className={styles.itemsLink} >
@@ -48,7 +47,6 @@ const Navbar = () => {
                     </a>
                 </li>
             </ul>
-
             <div className={styles.menu}>
                 <li className={styles.items}>
                     <a href="#" className={styles.itemsLink}>
@@ -66,6 +64,8 @@ const Navbar = () => {
                     </a>
                 </li>
             </div>
+
+        {/*    Side Menu */}
         </nav>
     )
 }

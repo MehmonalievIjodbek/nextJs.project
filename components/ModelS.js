@@ -1,24 +1,29 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
+import Reveal from "react-reveal/Reveal";
 
 const ModelS = () => {
     return (
         <section className={styles.section}>
-            <div className={styles.textsArea}>
-                <h3>Model S</h3>
-                <p>Order Online fro <span className={styles.touchless}>Touchless delivery</span></p>
-            </div>
-            <div className={styles.buttons}>
-                <div className={styles.btnMain}>
-                    <a href="#" className={styles.btn}>
-                        custom order
-                    </a>
-                    <a href="#" className={styles.btn}>
-                        existing inventory
-                    </a>
+            <Reveal effect="fadeInUp">
+                <div className={styles.textsArea}>
+                    <h3>Model S</h3>
+                    <p>Order Online fro <span className={styles.touchless}>Touchless delivery</span></p>
                 </div>
-            </div>
+            </Reveal>
+          <Reveal effect="fadeInUp">
+              <div className={styles.buttons}>
+                  <div className={styles.btnMain}>
+                      <a href="#" className={styles.btn}>
+                          custom order
+                      </a>
+                      <a href="#" className={styles.btn}>
+                          existing inventory
+                      </a>
+                  </div>
+              </div>
 
+          </Reveal>
         </section>
     );
 };

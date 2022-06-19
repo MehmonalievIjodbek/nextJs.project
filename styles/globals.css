@@ -14,4 +14,34 @@ a {
 * {
   box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* PAGE EFFECT */
+
+.fadeInUp {
+  animation: fadeinup 3s ease;
+}
+.fadeInUp2{
+  animation: fadeinup 1s ease;
+}
+
+@keyframes fadeinup {
+  from{
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeinup2 {
+  from{
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* PAGE EFFECT */
