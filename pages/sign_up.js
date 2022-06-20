@@ -33,6 +33,7 @@ const Register = () => {
         <>
             <Head>
                 <title>Sig Up</title>
+                <meta name='viewport' content='width=device-width, initial-scale=1.0'></meta>
             </Head>
             <Navbar/>
             <div className={styles.login}>
@@ -53,7 +54,7 @@ const Register = () => {
                         type="password"
                         value={passwordOne}
                         onChange={(event) => setPasswordOne(event.target.value)}
-                        name="email"
+                        name="paswordOne"
                         className={styles.input}/>
 
                     <label htmlFor="passwordTwo">Confirm Password</label>
